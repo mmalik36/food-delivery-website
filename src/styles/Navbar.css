@@ -28,6 +28,14 @@ nav a {
   margin: 0 1rem;
   color: var(--textColor);
   text-decoration: none;
+  position: relative;
+  left: 40px;
+  top:20px;
+}
+
+nav h3{
+  position: static;
+  left:0px;
 }
 
 nav a:hover {
@@ -75,6 +83,7 @@ header .nav-btn {
     position: absolute;
     top: 2rem;
     right: 2rem;
+
   }
 
   nav a {
