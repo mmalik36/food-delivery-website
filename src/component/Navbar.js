@@ -25,6 +25,11 @@ function Navbar() {
       <button onClick={showNavBar} className="nav-btn">
         <FaBars />
       </button>
+        <div>
+            <button onClick={event=>window.location.href='./menu'} className="order-btn" >
+                Order Now
+            </button>
+        </div>
     </header>
   );
 }
