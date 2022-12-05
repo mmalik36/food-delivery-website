@@ -29,13 +29,13 @@ nav a {
   color: var(--textColor);
   text-decoration: none;
   position: relative;
-  left: 40px;
+  left: 35px;
   top:20px;
 }
 
-nav h3{
-  position: static;
-  left:0px;
+.logo{
+  position: relative;
+  right:20px;
 }
 
 nav a:hover {
