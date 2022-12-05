@@ -11,7 +11,7 @@ function Navbar() {
   };
   return (
     <header>
-        <h3>Bumble Bee</h3>
+        <h3 className="logo">Bumble Bee</h3>
         <div>
       <nav ref={navRef}>
 
