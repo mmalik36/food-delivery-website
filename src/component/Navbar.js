@@ -11,9 +11,10 @@ function Navbar() {
   };
   return (
     <header>
-      <h3>Bumble Bee</h3>
-
+        <h3>Bumble Bee</h3>
+        <div>
       <nav ref={navRef}>
+
         <a href="/#">Home</a>
         <a href="/contact">Contact</a>
         <a href="/cart">Cart</a>
@@ -25,11 +26,10 @@ function Navbar() {
       <button onClick={showNavBar} className="nav-btn">
         <FaBars />
       </button>
-        <div>
+        </div>
             <button onClick={event=>window.location.href='./menu'} className="order-btn" >
                 Order Now
             </button>
-        </div>
     </header>
   );
 }
