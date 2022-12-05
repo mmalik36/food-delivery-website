@@ -20,7 +20,7 @@
 
 .order-btn {
   position: relative;
-  left: 10%;
+  left: 1320px;
   background-color: #14ae5c;
   border: none;
   padding: 15px;
@@ -29,7 +29,7 @@
   cursor: pointer;
   border-radius: 15px;
   color: white;
-  top: 100px;
+  top: -640px;
 }
 
 .sushi-logo{
