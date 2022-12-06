@@ -18,3 +18,9 @@
 .App-link {
   color: #61dafb;
 }
+
+.navbar-item{
+  position: relative;
+  top:-54px;
+  left:245px;
+}

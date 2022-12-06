@@ -19,6 +19,8 @@ function Navbar() {
         <a href="/contact">Contact</a>
         <a href="/cart">Cart</a>
         <a href="/menu">Menu</a>
+          <a href="/login">Login</a>
+
         <button onClick={showNavBar} className="nav-btn nav-close-btn">
           <FaTimes />
         </button>
@@ -32,6 +34,9 @@ function Navbar() {
             </button>
     </header>
   );
+
 }
 
+
 export default Navbar;
+
