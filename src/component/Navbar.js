@@ -20,7 +20,7 @@ function Navbar() {
         <a href="/contact">Contact</a>
           <a href="/menu">Menu</a>
         <a href="/cart">Cart</a>
-          <a href="/#">Login</a>
+          <a href="/login">Login</a>
 
         <button onClick={showNavBar} className="nav-btn nav-close-btn">
           <FaTimes />
