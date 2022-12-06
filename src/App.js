@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import {Routes,Router, Route, Link, BrowserRouter} from "react-router-dom";
+import {Routes, Route, Link, BrowserRouter} from "react-router-dom";
 import './App.css';
 import Home from "./pages/Home";
-import Cart1 from "./pages/Cart1";
 import Contact from "./pages/Contact";
-import Menu from "./pages/Menu";
 import Footer from "./component/Footer";
 import Navbar from "./component/Navbar";
 import AddProduct from '../src/component/AddProduct';

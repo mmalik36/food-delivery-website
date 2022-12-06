@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+
 }
 
 
@@ -7,7 +7,7 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
+  display:inline-flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -20,7 +20,19 @@
 }
 
 .navbar-item{
-  position: relative;
-  top:-54px;
-  left:245px;
+  display: inline-block;
+  position: absolute;
+  top:26px;
+  left:955px;
+  padding:0;
+  margin:0;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-item :hover{
+  text-decoration: none;
+  padding:0px;
+  margin:0px;
+
 }

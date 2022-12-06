@@ -1,4 +1,6 @@
 import React from "react";
+import "./products.css"
+import Miso from "../assets/Miso_Soup_001.jpg"
 
 const ProductItem = props => {
     const { product } = props;
@@ -7,9 +9,9 @@ const ProductItem = props => {
             <div className="box">
                 <div className="media">
                     <div className="media-left">
-                        <figure className="image is-64x64">
+                        <figure className="figure1">
                             <img
-                                src="https://bulma.io/images/placeholders/128x128.png"
+                                src={Miso}
                                 alt={product.shortDesc}
                             />
                         </figure>

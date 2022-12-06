@@ -1,6 +1,7 @@
 import React from "react";
 import ProductItem from "./ProductItem";
 import withContext from "../withContext";
+import "bulma/css/bulma.css";
 
 const ProductList = props => {
     const { products } = props.context;

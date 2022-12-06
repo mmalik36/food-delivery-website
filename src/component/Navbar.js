@@ -10,6 +10,7 @@ function Navbar() {
     navRef.current.classList.toggle("responsive_nav");
   };
   return (
+
     <header>
         <h3 className="logo">Bumble Bee</h3>
         <div>
@@ -17,9 +18,9 @@ function Navbar() {
 
         <a href="/#">Home</a>
         <a href="/contact">Contact</a>
+          <a href="/menu">Menu</a>
         <a href="/cart">Cart</a>
-        <a href="/menu">Menu</a>
-          <a href="/login">Login</a>
+          <a href="/#">Login</a>
 
         <button onClick={showNavBar} className="nav-btn nav-close-btn">
           <FaTimes />
