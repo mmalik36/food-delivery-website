@@ -1,6 +1,6 @@
 import React from "react";
-import { FaHome, FaPhoneAlt } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 
 function Footer() {
   return (

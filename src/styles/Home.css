@@ -1,26 +1,18 @@
 .wordBubble {
   background-color: #eef1f0;
-  border: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
+ padding: 5%;
   font-size: 2vw;
   border-radius: 16px;
+  width: 40%;
+  float: right;
+ 
 }
 
-.home-body-text {
-  text-align: center;
-  position: absolute;
-  bottom: 10px;
-  left: 35%;
-  bottom: 30px;
+.home-text{
+  padding-top: 5%;
 }
 
 .order-btn {
-  position: relative;
-  left: 10%;
   background-color: #14ae5c;
   border: none;
   padding: 15px;
@@ -29,11 +21,16 @@
   cursor: pointer;
   border-radius: 15px;
   color: white;
-  top: 100px;
+float: right;
 }
 
+.order-div{
+  padding-right: 20%;
+  padding-bottom: 20%; 
+}
 .sushi-logo{
 background-size: cover;
 max-width: 100%;
 width: 700px;
 }
+

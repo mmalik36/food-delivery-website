@@ -5,25 +5,25 @@ import logo from "../assets/sushi.png";
 
 function Home() {
   return (
-    <React.Fragment>
-      <Navbar />
-      <div className="home-body-text">
+    <div>
+     
+    <div className="home-text">
         <p className="wordBubble">
           We try to show you all the variety of Japanese cuisine and its current
           trends.
         </p>
-      </div>
+        </div>
 
 
       <img src={logo} className="sushi-logo" alt="sushi"></img>
      
-        <div>
+        <div className="order-div">
             <button onClick={event=>window.location.href='./menu'} className="order-btn" >
                 Order Now
             </button>
         </div>
 
-    </React.Fragment>
+    </div>
   );
 }
 
