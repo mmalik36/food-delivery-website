@@ -32,7 +32,7 @@
       "id": "aoe8wvdxvrkfqsew67",
       "name": "Shumai Soup",
       "stock": 15,
-      "price": 5.50,
+      "price": 5.5,
       "shortDesc": "",
       "description": ""
     },
@@ -40,7 +40,7 @@
       "id": "bmfrurdkswtkfqsf15j",
       "name": "Green Salad",
       "stock": 5,
-      "price": 2.50,
+      "price": 2.5,
       "shortDesc": "",
       "description": ""
     }
