@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
-import Contact from "./pages/Contact";
 import Footer from "./component/Footer";
 import Navbar from "./component/Navbar";
 import AddProduct from "../src/component/AddProduct";
@@ -53,7 +52,7 @@ export default class App extends Component {
                 <Route path="/login" element={<Login />} />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/add-product" element={<AddProduct />} />
-                <Route path="/contact" element={<Contact />} />
+               
                 <Route path="/menu" element={<ProductList />} />
               </Routes>
             </div>
