@@ -15,7 +15,7 @@
     {
       "id": "hdmdu0t80yjkfqselfc",
       "name": "Miso Soup",
-      "stock": 9,
+      "stock": 10,
       "price": 1.75,
       "shortDesc": "",
       "description": ""
@@ -23,7 +23,7 @@
     {
       "id": "3dc7fiyzlfmkfqseqam",
       "name": "Clam Soup",
-      "stock": 18,
+      "stock": 20,
       "price": 4.25,
       "shortDesc": "",
       "description": "Little neck clams, mushroom,mixed vegetables"
@@ -39,7 +39,7 @@
     {
       "id": "bmfrurdkswtkfqsf15j",
       "name": "Green Salad",
-      "stock": 4,
+      "stock": 5,
       "price": 2.5,
       "shortDesc": "",
       "description": ""
