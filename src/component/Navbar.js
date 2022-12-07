@@ -17,7 +17,7 @@ function Navbar() {
       <nav ref={navRef}>
 
         <a href="/#">Home</a>
-        <a href="/contact">Contact</a>
+       
           <a href="/menu">Menu</a>
         <a href="/cart">Cart</a>
           <a href="/login">Login</a>

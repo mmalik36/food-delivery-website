@@ -31,11 +31,7 @@ class Login extends Component {
     render() {
         return !this.props.context.user ? (
             <>
-                <div className="hero is-primary ">
-                    <div className="hero-body container">
-                        <h4 className="title">Login</h4>
-                    </div>
-                </div>
+               
                 <br />
                 <br />
                 <form onSubmit={this.login}>

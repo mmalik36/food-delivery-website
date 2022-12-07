@@ -1,6 +1,7 @@
 import React from "react";
-import "./products.css"
+import "../styles/products.css"
 import Miso from "../assets/Miso_Soup_001.jpg"
+
 
 const ProductItem = props => {
     const { product } = props;
@@ -19,14 +20,10 @@ const ProductItem = props => {
                     <div className="media-content">
                         <b style={{ textTransform: "capitalize" }}>
                             {product.name}{" "}
-                            <span className="tag is-primary">${product.price}</span>
+                            <span className="tag is-primary" >${product.price}</span>
                         </b>
                         <div>{product.shortDesc}</div>
-                        {product.stock > 0 ? (
-                            <small>{product.stock + " Available"}</small>
-                        ) : (
-                            <small className="has-text-danger">Out Of Stock</small>
-                        )}
+                     
                         <div className="is-clearfix">
                             <button
                                 className="button is-small is-outlined is-primary   is-pulled-right"

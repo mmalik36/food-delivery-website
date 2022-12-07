@@ -1,9 +1,10 @@
 import React from "react";
-import { FaHome, FaPhoneAlt } from "react-icons/fa";
+import "../styles/Footer.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Footer() {
   return (
+      <div className="footer">
     <div className="bg-dark">
       <div className="container bg-dark">
         <div className="row py-5 text-white">
@@ -23,7 +24,7 @@ function Footer() {
 
           <div className="col-md-3 col-sm-12">
             <h4>Follow Us Here</h4>
-            <p>https://www.facebook.com</p>
+            <p>https://www.facebook.com/</p>
           </div>
 
           <div className="col-md-3 col-sm-12">
@@ -42,6 +43,7 @@ function Footer() {
         </div>
       </div>
     </div>
+      </div>
   );
 }
 
