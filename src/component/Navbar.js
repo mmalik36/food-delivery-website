@@ -10,14 +10,18 @@ function Navbar() {
     navRef.current.classList.toggle("responsive_nav");
   };
   return (
-    <header>
-      <h3>Bumble Bee</h3>
 
+    <header>
+        <h3 className="logo">Bumble Bee</h3>
+        <div>
       <nav ref={navRef}>
+
         <a href="/#">Home</a>
         <a href="/contact">Contact</a>
+          <a href="/menu">Menu</a>
         <a href="/cart">Cart</a>
-        <a href="/menu">Menu</a>
+          <a href="/login">Login</a>
+
         <button onClick={showNavBar} className="nav-btn nav-close-btn">
           <FaTimes />
         </button>
@@ -25,8 +29,15 @@ function Navbar() {
       <button onClick={showNavBar} className="nav-btn">
         <FaBars />
       </button>
+        </div>
+            <button onClick={event=>window.location.href='./menu'} className="order-btn" >
+                Order Now
+            </button>
     </header>
   );
+
 }
 
+
 export default Navbar;
+

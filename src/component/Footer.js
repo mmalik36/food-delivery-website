@@ -1,9 +1,10 @@
 import React from "react";
+import { FaHome, FaPhoneAlt } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 
 function Footer() {
   return (
+      <div className="footer">
     <div className="bg-dark">
       <div className="container bg-dark">
         <div className="row py-5 text-white">
@@ -42,6 +43,7 @@ function Footer() {
         </div>
       </div>
     </div>
+      </div>
   );
 }
 
